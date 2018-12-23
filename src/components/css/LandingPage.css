@@ -1,0 +1,92 @@
+.landingBase {
+  padding: 30px;
+  display: flex;
+}
+.landingAdd {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: center;
+}
+.landingList {
+  width: 50%;
+  padding-top: 40px;
+}
+.landingAddRow {
+  display: flex;
+  padding: 20px;
+  width: 50%;
+}
+.landingAddLabel {
+  width: 30%;
+  font-size: 20px;
+}
+.landingAddValue {
+  width: 70%;
+}
+.userItemHeader {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  background-color: #eee;
+}
+.userIdHeader {
+  width: 20%;
+}
+.userNameHeader {
+  width: 20%;
+}
+.userEmailHeader {
+  width: 30%;
+}
+.userAddPresentHeader {
+  width: 15%;
+}
+.userAbsentHeader {
+  width: 15%;
+}
+.userItem {
+  width: 100%;
+  display: flex;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.userItem:hover {
+  background-color: #eee;
+}
+.userId {
+  width: 20%;
+}
+.userName {
+  width: 20%;
+}
+.userEmail {
+  width: 20%;
+}
+.userAddPresent {
+  width: 20%;
+}
+.userAbsent {
+  width: 20%;
+}
+.deduplicateMsg {
+  padding: 20px 30px;
+  background: #ca4545;
+  color: #eee;
+}
+.attendanceMsg {
+  padding: 10px 30px;
+  background-color: #38942d;
+  color: #fff;
+  margin: 10px;
+  width: 50%;
+}
+.attendanceMsg-alreadyPresent {
+  padding: 10px 30px;
+  background-color: #ca4545;
+  color: #fff;
+  margin: 10px;
+  width: 50%;
+}

@@ -1,0 +1,23 @@
+.userPageBase {
+  padding: 40px;
+}
+.ItemHeader {
+  display: flex;
+  width: 100%;
+  background-color: #eee;
+  padding: 20px;
+}
+.itemId {
+  width: 20%;
+}
+.date {
+  width: 30%;
+}
+.type {
+  width: 30%;
+}
+.Item {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}

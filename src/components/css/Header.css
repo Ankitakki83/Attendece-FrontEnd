@@ -1,0 +1,20 @@
+.headerWrapper {
+  width: 100%;
+  background-color: #3b9e43;
+  display: flex;
+}
+.headerTitle {
+  padding: 15px 30px;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.headerItem {
+  height: 100%;
+  padding: 20px 30px;
+  color: white;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+}
